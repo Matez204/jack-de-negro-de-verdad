@@ -10,6 +10,6 @@ class Juego:
             self.jug.agregar_carta(self.mazo.dar_carta())
     def mostrar_juego(self):
         print("jugador: ")
-        self.jug.mostrar_cartas()
+        self.jug.mostrar_cartas(True)
         print("casa: ")
         self.casa.mostrar_cartas()

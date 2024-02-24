@@ -1,4 +1,9 @@
 from juego import *
+import os
 juego = Juego()
 juego.ini()
-juego.mostrar_juego()
+print("Bienvenido a un juego de blacka jack, jugaras contra la casa.\
+    \nYa esta repartiendo las cartas")
+juego.mostrar_juego() 
+elec=input("De")
+os.system("cls")
