@@ -1,7 +1,7 @@
 import random
 class Carta:
     def __init__(self,valor,pinta):
-        self.valor= valor
+        self.valor=valor
         self.pinta=pinta
     def dar_valor(self):
         if self.valor in ("J","K","Q"):

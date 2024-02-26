@@ -9,7 +9,7 @@ class Juego:
             self.casa.agregar_carta(self.mazo.dar_carta())
             self.jug.agregar_carta(self.mazo.dar_carta())
     def mostrar_juego(self):
-        print("jugador: ")
+        print("Tus cartas: ")
         self.jug.mostrar_cartas(True)
         print("casa: ")
         self.casa.mostrar_cartas()
