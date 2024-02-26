@@ -1,5 +1,5 @@
 from juego import *
-import os,time,sys 
+import time,sys 
 juego = Juego()
 juego.ini()
 def espera():
